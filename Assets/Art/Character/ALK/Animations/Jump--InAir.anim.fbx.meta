@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b8a68c23415b03948a295fe54d0cde3b
+guid: a5893a94d179ebb4f91ed27ba561dcfa
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable: []
@@ -18,7 +18,13 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'pelvis' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'leg02_L' has translation
+      animation that will be discarded.\n\t'leg02_R' has translation animation that
+      will be discarded.\n\t'arm2_L' has translation animation that will be discarded.\n\t'arm2_R'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -1101,11 +1107,11 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: b8a68c23415b03948a295fe54d0cde3b, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
